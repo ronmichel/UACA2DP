@@ -17,7 +17,7 @@ jobs:
       - name: Set up ESP-IDF
         uses: HareshPrajapati/esp_idf_build_action@V2
         with:
-          version: latest  # or "v5.3"
+          esp_idf_version: latest  # or "v5.3"
           targets: esp32s3
 
       - name: Pull dependencies
